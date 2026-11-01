@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    float score;
+
+    scanf("%f", &score);
+
+    if (score >= 4.0)
+        printf("scholarship");
+    else if (score >= 3.0)
+        printf("next semester");
+    else if (score >= 2.0)
+        printf("seasonal semester");
+    else
+        printf("retake");
+
+    return 0;
+}
